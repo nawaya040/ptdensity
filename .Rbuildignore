@@ -1,0 +1,12 @@
+^evaluation$
+^scripts$
+^examples$
+^\.local-library$
+^\.build$
+^.*\.Rproj$
+^\.Rproj\.user$
+^AGENTS\.md$
+^ptdensity_.*$
+^ptdensity\.Rcheck$
+^cran-comments\.md$
+^\.Rhistory$

@@ -1,0 +1,11 @@
+.Rproj.user/
+.Rhistory
+.RData
+.local-library/
+.build/
+src/*.o
+src/*.dll
+src/*.so
+ptdensity_*.tar.gz
+ptdensity_*.zip
+ptdensity.Rcheck/

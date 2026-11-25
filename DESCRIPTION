@@ -1,0 +1,25 @@
+Package: ptdensity
+Type: Package
+Title: Bayesian Multiscale Density Estimation with Hidden Markov Polya Trees
+Version: 0.0.0.9000
+Authors@R: person("Naoki", "Awaya", role = c("aut", "cre"),
+    email = "nawaya@waseda.jp")
+Description: Bayesian estimation of multivariate densities using hidden
+    Markov Polya trees with adaptive partitions, following Awaya and Ma
+    (2024) <doi:10.1080/01621459.2022.2105223>. Latent states on the tree
+    nodes allow the smoothness of the density to vary across the sample
+    space, as in the adaptive Polya tree of Ma (2017)
+    <doi:10.1214/16-BA1021>. Provides the posterior mean density, draws from
+    the predictive distribution, exact one- and two-variable marginal
+    densities, and a representative partition tree. Posterior computation
+    combines sequential Monte Carlo and recursive message passing.
+URL: https://github.com/nawaya040/ptdensity
+BugReports: https://github.com/nawaya040/ptdensity/issues
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Rcpp, stats, utils
+LinkingTo: Rcpp
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
